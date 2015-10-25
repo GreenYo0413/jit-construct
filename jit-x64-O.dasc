@@ -49,6 +49,11 @@ int main(int argc, char *argv[])
 
 	for (char *p = read_file(argv[1]); *p; p++) {
 		int temp;
+		if( *p=='[' && *(p+1)== '-'  && *(p+2)== ']' ){
+			|  mov byte [PTR], 0
+			p+=2;
+			continue;
+		}
 		switch (*p) {
 		case '>':
 			temp=countPattern(&p,'>');
