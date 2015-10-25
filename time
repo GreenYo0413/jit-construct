@@ -1,0 +1,10 @@
+original
+progs/awib.b             GOOD	157.1ms
+progs/mandelbrot.b       GOOD	3894.7ms
+progs/hanoi.b            GOOD	10436.3ms
+
+add addition process of address continuous pattern
+progs/awib.b             GOOD	104.0ms
+progs/mandelbrot.b       GOOD	1483.9ms
+progs/hanoi.b            GOOD	5860.6ms
+
